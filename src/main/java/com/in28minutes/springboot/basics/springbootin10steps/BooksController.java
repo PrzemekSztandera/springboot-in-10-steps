@@ -13,7 +13,9 @@ public class BooksController {
     public List<Book> getAllBooks() {
 
         return Arrays.asList(
-                new Book(1l, "Mastering Spring 5.5", "Ranga Karana")
+                new Book(1l, "Mastering Spring 5.5", "Ranga Karana"),
+                new Book(2l, "Lord of the Ring", "J. R. R Tolkien"),
+                new Book(3l, "Hobbit", "J. R. R Tolkien")
         );
     }
 }
